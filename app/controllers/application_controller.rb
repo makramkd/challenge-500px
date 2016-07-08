@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
     # make a quick api request for one image
     response = make_api_request(access_token,
                                 "/photos?feature=fresh_today&sort=created_at&rpp=1&image_size=3&include_store=store_download&include_states=voted")
-    render text: response
+    render json: response
   end
 
   # create an access token in order to make an api call

@@ -21,3 +21,6 @@
 
 # ignore api key files
 api_info.json
+
+# Ignore application configuration
+/config/application.yml
