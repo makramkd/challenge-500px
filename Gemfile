@@ -18,6 +18,9 @@ gem 'oauth'
 # use figaro instead of dotenv
 gem 'figaro'
 
+# use bootstrap
+gem 'bootstrap-sass'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
