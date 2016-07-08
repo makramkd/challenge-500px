@@ -18,3 +18,6 @@
 
 # ignore idea files
 .idea/
+
+# ignore api key files
+api_info.json
