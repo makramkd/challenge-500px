@@ -1,13 +1,8 @@
-== README
+== Top 100 Photos Showcase from 500px
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version used: 2.3.1p112 (2016-04-26 revision 54768)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* System dependencies: nothing in particular (see Gemfile for gems used)
 
 * Configuration
 
@@ -15,14 +10,8 @@ Things you may want to cover:
 
 * Database initialization
 
-* How to run the test suite
+* How to run the test suite: `bundle exec rake`
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Deployment instructions: the consumer_key given by 500px is not available to you if you are cloning it so you wouldn't be able to run it locally. This consumer key is not put on the repo for security purposes.
