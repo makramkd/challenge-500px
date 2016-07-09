@@ -10,7 +10,7 @@ class ShowcaseController < ApplicationController
     access_token = get_access_token
     # make a quick api request for one image
     response = make_api_request(access_token,
-                                "/photos?feature=fresh_today&sort=created_at&rpp=100&image_size=3&include_store=store_download&include_states=voted")
+                                "/photos?feature=popular&sort=created_at&rpp=100&image_size=3&include_store=store_download&include_states=voted")
     @image_urls = get_image_urls(response)
   end
 
